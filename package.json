@@ -1,0 +1,31 @@
+{
+    "name": "order-service",
+    "version": "1.0.0",
+    "description": "Service de gestion des commandes",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "mocha --timeout 5000"
+    },
+    "keywords": [
+        "order",
+        "service",
+        "microservice"
+    ],
+    "author": "fatma",
+    "license": "MIT",
+    "dependencies": {
+        "@graphql-tools/schema": "^8.0.0",
+        "@grpc/grpc-js": "^1.3.6",
+        "@grpc/proto-loader": "^0.5.1",
+        "express": "^4.17.1",
+        "graphql": "^15.6.0",
+        "http-proxy-middleware": "^3.0.0",
+        "kafkajs": "^2.2.4",
+        "mongoose": "^5.13.3"
+    },
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "mocha": "^9.1.1"
+    }
+}
